@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
-import "./Search.scss";
+import "./search.scss";
 import useFetch from "../../../hooks/useFetch";
 import { useNavigate } from "react-router-dom";
 

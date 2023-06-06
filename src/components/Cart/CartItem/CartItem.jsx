@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../../../utils/context";
 import { MdClose } from "react-icons/md";
 
-import "./CartItem.scss";
+import "./cartItem.scss";
 const CartItem = () => {
     const { cartItems, handleRemoveFromCart, handleCartProductQuantity } =
         useContext(Context);

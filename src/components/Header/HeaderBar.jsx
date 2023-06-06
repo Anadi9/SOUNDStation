@@ -4,9 +4,9 @@ import { TbSearch } from "react-icons/tb";
 import { CgShoppingCart } from "react-icons/cg";
 import { AiOutlineHeart } from "react-icons/ai";
 import "./header.scss";
-import Search from "./Search/Search";
+import Search from "./search/search";
 import { Context } from "../../utils/context";
-import Cart from "../Cart/Cart";
+import Cart from "../cart/cart";
 
 const HeaderBar = () => {
   const [scrolled, setScrolled] = useState(false);

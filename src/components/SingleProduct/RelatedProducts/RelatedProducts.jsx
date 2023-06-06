@@ -1,6 +1,6 @@
 import React from "react";
 import useFetch from "../../../hooks/useFetch";
-import Products from "../../Products/Products";
+import Products from "../../products/products";
 
 const RelatedProducts = ({ categoryId, productId }) => {
     const { data } = useFetch(

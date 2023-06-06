@@ -1,8 +1,8 @@
 import React, { useEffect, useContext } from "react";
-import "./Home.scss";
-import Banner from "./Banner/Banner";
-import Category from "./Category/Category";
-import Products from "../Products/Products";
+import "./home.scss";
+import Banner from "./banner/banner";
+import Category from "./category/category";
+import Products from "../products/products";
 import { fetchDataFromApi } from "../../utils/api";
 import { Context } from "../../utils/context";
 

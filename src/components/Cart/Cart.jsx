@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import { MdClose } from "react-icons/md";
 import { BsCartX } from "react-icons/bs";
 import { Context } from "../../utils/context";
-import CartItem from "./CartItem/CartItem";
+import CartItem from "./cartItem/cartItem";
 import { loadStripe } from "@stripe/stripe-js";
 import { makePaymentRequest } from "../../utils/api";
 
-import "./Cart.scss";
+import "./cart.scss";
 
 const Cart = () => {
     const { cartItems, setShowCart, cartSubTotal } = useContext(Context);

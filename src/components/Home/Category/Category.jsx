@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./Category.scss";
+import "./category.scss";
 
 const Category = ({ categories }) => {
     const navigate = useNavigate();

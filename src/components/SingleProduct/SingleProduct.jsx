@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { Context } from "../../utils/context";
 import { useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
-import RelatedProducts from "./RelatedProducts/RelatedProducts";
+import RelatedProducts from "./relatedProducts/relatedProducts";
 import {
     FaFacebookF,
     FaTwitter,
@@ -11,7 +11,7 @@ import {
     FaPinterest,
     FaCartPlus,
 } from "react-icons/fa";
-import "./SingleProduct.scss";
+import "./singleProduct.scss";
 
 const SingleProduct = () => {
     const [quantity, setQuantity] = useState(1);
