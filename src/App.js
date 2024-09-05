@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 
-import HeaderBar from "./components/header/headerBar";
-import Footer from "./components/footer/footer";
-import Home from "./components/home/home";
-import Category from "./components/category/category";
-import SingleProduct from "./components/singleProduct/singleProduct";
-import Newsletter from "./components/footer/newsletter/newsletter";
+import HeaderBar from "./components/Header/HeaderBar";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
+import Category from "./components/Category/Category";
+import SingleProduct from "./components/SingleProduct/SingleProduct";
+import Newsletter from "./components/Footer/Newsletter/Newsletter";
 import AppContext from "./utils/context";
 
 function App() {
